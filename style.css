@@ -539,23 +539,27 @@ span {
     .hamburger-label { 
         display: block; 
     }
+    .menu-toggle:checked ~ .nav-links {
+    display: flex;
+    }
 
     .container {
         padding-top: 80px;
     }
     .circle {
-        height: 250px;
-        width: 250px;
+        height: 300px;
+        width: 300px;
     }
     #pfp {
-        height: 200px;
+        height: 280px;
         bottom: 70px;
-        left: 30px;
+        left: 40px;
     }
     #name {
-        top: 160px;
-        left: 5px;
-        scale: 0.4;
+        top: 180px;
+        
+        scale: 0.6;
+        left: -40px;
     }
     
     section {
@@ -606,18 +610,19 @@ span {
         min-height: 90vh;
     }
     .circle {
-        height: 200px;
-        width: 200px;
+        height:300px;
+        width: 300px;
     }
     #pfp {
-        height: 150px;
+        height: 250px;
         bottom: 50px;
-        left: 20px;
+        left: 40px;
     }
     #name {
-        top: 130px;
-        scale: 0.3;
-        left: 0px;
+        
+        top: 195px;
+        scale: 0.5;
+        left: -100px;
     }
 
     section {
@@ -634,3 +639,4 @@ span {
         padding: 20px;
     }
 }
+
